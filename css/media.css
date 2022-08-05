@@ -1,0 +1,219 @@
+@media (max-width: 599px){
+    .container{
+        width: 300px;
+    } 
+    .about__list::before{
+        height: 1900px;
+    }
+    .contact-us__input--message{
+        height: 140px;
+    }
+    .team-sponsors__list{
+        justify-content: center;
+        width: 196px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-footer__copyright{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 600px){
+    .contact-us__input{
+        width: 290px;
+    }
+    .page-footer__copyright{
+        margin-right: 100px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 899px){
+    .container{
+        width: 570px;
+    }
+    .about__list::before{
+        height: 1800px;
+    }
+    .contact-us__input{
+        width: 400px;
+    }
+    .contact-us__input--message{
+        height: 160px;
+    }
+    .team-sponsors__list{
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team__sponsor-item:nth-child(2n+1){
+        margin-right: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 899px){
+
+    .page-nav__site-navigation{
+        visibility: hidden;
+    }
+    .drop-menu:hover .page-nav__site-navigation{
+        visibility: visible;
+    }
+    .page-nav__site-navigation{
+        visibility: hidden;
+        opacity: 0;
+        width: 150px;
+        transform: perspective(600px) rotateX(-90deg);
+        transform-origin: 0% 0%;
+        transition: .6s ease-in-out;
+    }
+    .drop-menu:hover .page-nav__site-navigation{
+        visibility: visible;
+        opacity: 1;
+        transform: perspective(600px) rotateX(0deg);
+    }
+    .page-nav__site-navigation{
+        margin-bottom: 70px;
+    }
+    .portfolio__card:not(:last-child), 
+    .team__sponsor-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .contact-us__item:not(:last-child){
+        margin-bottom: 10px;
+    }
+    [class*=--201]:nth-child(2n+1):after, [class*=--201]:nth-child(2n)::before{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .about__item:nth-child(2n+1){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about__item:not(:last-child){
+        margin-bottom: 94px;
+    }
+    .contact-us__input{
+        width: 290px;
+    }
+    .portfolio__card, .about__item,
+    .team__member, .contact-us__item, .about__text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__text{
+        width: 306px;
+    }
+
+}
+
+
+@media (min-width: 900px){
+    .container{
+        width: 840px;
+    }
+    .drop-menu__img{
+        display: none;
+    }
+    .page-nav__site-navigation{
+        margin-bottom: 170px;
+    }
+    .page-nav__site-navigation{
+        visibility: visible;
+    }
+    .page-nav__site-navigation{
+        width: 484px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about__item:not(:last-child){
+        width: 850px;
+        }
+    .about__text{
+        width: 290px;
+    }
+    [class*=--201]:nth-child(2n+1):after, [class*=--201]:nth-child(2n)::before{
+        display: inline-block;
+    }
+    .about__list::before{
+        height: 1120px;
+    }
+    .team__desc{
+        width: 590px;
+    }
+    .contact-us__input{
+        height: 52px;
+        width: 400px
+    }
+    .contact-us__input--message{
+        height: 212px;
+    }
+    .portfolio__card:not(:nth-last-child(-n+2)){
+        margin-bottom: 30px;
+    }
+    .portfolio__card:nth-child(2n+1){
+        margin-right: 34px;
+    }
+    .portfolio__list{
+        justify-content: center;
+    }
+    .about__item:nth-child(2n+1){
+        text-align: left;
+    }
+    .about__item:nth-child(2n){
+        text-align: right;
+    }
+    .contact-us__list{
+        height: 214px;
+    }
+    .contact-us__item:not(:nth-last-child(-n+2)){
+        margin-bottom: 28px;
+    }
+}
+
+
+@media (max-width: 999px){
+    .services__list, .team__list{
+        flex-direction: column;
+    }
+    .services__item:not(:last-child),
+    .team__member:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .services__item, .team__member{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .container{
+        width: 940px;
+    }
+    .services__item:not(:last-child){
+        margin-right: 34px;
+    }
+    .portfolio__card{
+        margin-right: 34px;
+    }
+    .portfolio__card:nth-child(3n+3){
+        margin-right: 0;
+    }
+    .team__list{
+        justify-content: space-between;
+    }
+    .contact-us__input{
+        width: 457px
+    }
+    .contact-us__item:nth-child(-n+3){
+        margin-right: 24px;
+    }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-chevron-down" viewBox="0 0 28 28">
+<title>chevron-down</title>
+<path d="M26.297 12.625l-11.594 11.578c-0.391 0.391-1.016 0.391-1.406 0l-11.594-11.578c-0.391-0.391-0.391-1.031 0-1.422l2.594-2.578c0.391-0.391 1.016-0.391 1.406 0l8.297 8.297 8.297-8.297c0.391-0.391 1.016-0.391 1.406 0l2.594 2.578c0.391 0.391 0.391 1.031 0 1.422z"></path>
+</symbol>
+<symbol id="drop" viewBox="0 0 24 24">
+<title>chevron-down1</title>
+<path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+</symbol>
+<symbol id="icon-view-list" viewBox="0 0 20 20">
+<title>view-list</title>
+<path d="M0 3h20v2h-20v-2zM0 7h20v2h-20v-2zM0 11h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+</symbol>
+<symbol id="icon-list" viewBox="0 0 32 32">
+<title>list</title>
+<path d="M8 8v4h16v-4h-16zM8 18h16v-4h-16v4zM8 24h16v-4h-16v4z"></path>
+</symbol>
+</defs>
+</svg>
