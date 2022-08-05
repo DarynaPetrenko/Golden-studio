@@ -79,6 +79,7 @@
     }
     .page-nav__site-navigation{
         margin-bottom: 70px;
+        width: 85px;
     }
     .portfolio__card:not(:last-child), 
     .team__sponsor-item:not(:last-child){
