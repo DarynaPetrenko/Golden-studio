@@ -205,6 +205,9 @@
     .portfolio__card{
         margin-right: 34px;
     }
+    .portfolio__card:nth-last-child(-n+3){
+        margin-bottom: 0;
+    }
     .portfolio__card:nth-child(3n+3){
         margin-right: 0;
     }

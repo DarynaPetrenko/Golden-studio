@@ -191,8 +191,8 @@ input[type="radio"].visually-hidden {
 .portfolio, .team{
     background-color: #f7f7f7;
 }
-.portfolio__card, .team__member{
-    /* width: 290px; */
+.portfolio__link, .team__member{
+    display: block;
     padding-bottom: 30px;
     transition: transform 0.3s linear, box-shadow 0.3s linear;
     position: relative;
@@ -200,10 +200,11 @@ input[type="radio"].visually-hidden {
 .portfolio__card{
     background-color: #ffffff;
 }
-.portfolio__card:hover,
+.portfolio__link:hover,
 .team__member:hover{
     transform: scale(1.01);
     box-shadow: 5px 5px 15px grey;
+    cursor: pointer;
 }
 .portfolio__card:hover::before{
     content: '';
