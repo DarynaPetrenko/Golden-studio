@@ -387,6 +387,10 @@ input[type="radio"].visually-hidden {
     border-radius: 4px;
     border: none;
     padding: 18px;
+    height: 52px;
+}
+.contact-us__input:focus{
+    outline: 3px solid rgb(91, 91, 152);
 }
 .contact-us__list{
     margin-bottom: 34px;
